@@ -10,7 +10,7 @@
 
         <!-- Removals -->
 	
-        <remove-project name="android_frameworks_base" />
+        <remove-project name="RiceDroid/android_frameworks_base" />
 
         <!-- Trees -->
 
@@ -23,6 +23,6 @@
 	<project path="packages/apps/MotCamera2-overlay" name="motorola_camera2_overlay" revision="ten" remote="cam" />
 	<project path="packages/apps/MotoSignatureApp" name="motorola_motosignatureapp" revision="eleven" remote="cam2" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-        <project path="android/frameworks/base" name="android_frameworks_base" revision="thirteen" remote="dt" />
+        <project path="frameworks/base" name="android_frameworks_base" revision="thirteen" remote="dt" />
 
 </manifest>
