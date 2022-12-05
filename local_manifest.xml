@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+	<!-- Remotes -->
+
 	<remote  name="dt" fetch="https://github.com/DESTROYER3264" />
  	<remote  name="ct" fetch="https://github.com/sm6150-liber" />
 	<remote  name="cam" fetch="https://gitlab.com/NemesisDevelopers/moto-camera" />
 	<remote  name="cam2" fetch="https://gitlab.com/NemesisDevelopers/motorola" />
 	<remote  name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" /> 
 
- 
+        <!-- Removals -->
+	
+        <remove-project name="android_frameworks_base" />
+
+        <!-- Trees -->
+
   	<project path="device/motorola/liber" name="device_motorola_liber" revision="rice" remote="dt" />
   	<project path="device/motorola/sm6150-common" name="device_motorola_sm6150-common" revision="rice" remote="dt" />
 	<project path="vendor/motorola" name="proprietary_vendor_motorola" revision="lineage-20.0" remote="ct" />
@@ -17,5 +23,6 @@
 	<project path="packages/apps/MotCamera2-overlay" name="motorola_camera2_overlay" revision="ten" remote="cam" />
 	<project path="packages/apps/MotoSignatureApp" name="motorola_motosignatureapp" revision="eleven" remote="cam2" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+        <project path="android/frameworks/base" name="android_frameworks_base" revision="thirteen" remote="dt" />
 
 </manifest>
