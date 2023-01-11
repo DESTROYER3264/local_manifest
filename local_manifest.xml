@@ -2,19 +2,15 @@
 <manifest>
 	
 	<remote  name="dt" fetch="https://github.com/DESTROYER3264" />
- 	<remote  name="ct" fetch="https://github.com/sm6150-liber" />
 	<remote  name="cam" fetch="https://gitlab.com/NemesisDevelopers/moto-camera" />
 	<remote  name="cam2" fetch="https://gitlab.com/NemesisDevelopers/motorola" />
-        <remote  name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" /> 
 
-  	<project path="device/motorola/liber" name="device_motorola_liber" revision="awaken" remote="dt" />
-  	<project path="device/motorola/sm6150-common" name="device_motorola_sm6150-common" revision="awaken" remote="dt" />
-	<project path="vendor/motorola" name="proprietary_vendor_motorola" revision="lineage-20.0" remote="ct" />
-	<project path="kernel/motorola/sm6150" name="kernel_motorola_sm6150" revision="lineage-20.0" remote="ct" />
-  	<project path="packages/apps/MotoActions" name="android_packages_apps_MotoActions" revision="lineage-20.0" remote="ct" />
+  	<project path="device/motorola/liber" name="device_motorola_liber" revision="VoltageOS" remote="dt" />
+	<project path="vendor/motorola/liber" name="vendor_motorola_liber" revision="lineage-20" remote="dt" />
+	<project path="kernel/motorola/liber" name="kernel_motorola_liber" revision="lineage-20" remote="dt" />
+  	<project path="packages/apps/MotoActions" name="android_packages_apps_MotoActions" revision="lineage-20.0" remote="dt" />
 	<project path="packages/apps/MotCamera2" name="motorola_camera2_whitney" revision="eleven-arm64" remote="cam" />
 	<project path="packages/apps/MotCamera2-overlay" name="motorola_camera2_overlay" revision="ten" remote="cam" />
 	<project path="packages/apps/MotoSignatureApp" name="motorola_motosignatureapp" revision="eleven" remote="cam2" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
 </manifest>
